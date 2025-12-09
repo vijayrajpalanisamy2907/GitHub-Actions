@@ -1,0 +1,141 @@
+Session #1: 
+Date: 08/12/2024
+Time: 9:30AM to 5:30PM IST 
+#########################
+
+- Introduction to Curriculam
+- Introduction about the trainer
+- Introduction about the participants
+- Introduction about the labs
+- Need to confirm the break timings
+
+9:30 AM to 5:30 PM
+
+11:15 AM - 11:30 AM 
+
+1 PM to 2 PM
+
+3:45 PM to 4 PM
+
+Agenda:
+
+Who is this course for?
+Technologies
+Terms
+What is GitHub?
+What is GitHub used for?
+Common tasks you'll perform with Git
+How to install Git
+How to configure Git
+How to set the default editor
+How to create a repository using the Github website
+How to create a repository using the Git command line
+How to connect a local repository to a remote repository on GitHub
+How to pull changes from a remote repository to a local repository
+How to work with Git commands
+How to make changes to a file
+How to check the status of the current branch
+How to stage changes
+How to commit changes
+How to push changes to a remote repository
+How to create a branch
+How to create a pull request
+How to merge a pull request
+Wrapping Up
+
+
+Required Setup (Pre-session):
+- Install Git
+- Create account in GitHub
+- VS Code or any editor
+- Optional: GitHub Desktop
+
+########
+
+VCS - Version Control System
+SCM - Source Code Management
+
+Everything as a Code
+
+Pipeline - Code
+Infra - Code
+Documentation - Code 
+Policy - Code
+
+2 Types in VCS:
+
+CVCS
+DVCS
+
+- Git 
+- GitHub Account - Personal Mail ID
+
+
+Hands-On:
+
+- EC2 instance
+- Git 
+	sudo yum install git
+	clear
+	git --version
+	mkdir gitdemo - Make Directory
+	ls - list
+	ls -a 
+	cd gitdemo - Change Directory
+	nano to-do-list.txt
+	cat to-do-list.txt
+- Git Commands
+	git --version
+	git config --global user.name "Santhosh NC"
+	git config --global user.email ncsanthosh7@gmail.com
+	
+	git init
+	git add to-do-list.txt
+	git status
+	git commit -m "Added to-do-list.txt"
+	git log
+	.gitignore
+
+	git - master
+	github - main
+	
+	git branch -M "main"
+	git branch
+	
+	git remote add origin https://github.com/SanthoshNC/devops-demo-az.git
+	git push -u origin main
+	Username: SanthoshNC
+	Password: PAT
+	
+	git pull 
+		- frequently to get the code - remote branch
+	git clone
+		- one time activity
+	git fetch
+		- get the remote branches to local repo
+	
+- Branching:
+
+git branch feature-a
+git branch
+git checkout feature-a
+
+PR - Pull Request
+Adding Collaborators
+Branch Protection Policies
+
+- Branching Strategy
+	
+
+Reference:
+
+- GitHub Certifications
+- https://git-scm.com/
+- Windows Machine - Linux - WSL
+
+Learn Git By games:
+- https://gitimmersion.com/
+- https://learngitbranching.js.org/
+- https://ohmygit.org/
+- https://docs.github.com/en
+- https://www.gitme.live/
